@@ -10,16 +10,23 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.text.TextStyle
 
 // Define colors for dark theme
-val md_theme_dark_primary = Color(0xFFBB86FC)
+val md_theme_dark_primary = Color(0xFFFF9800)
 val md_theme_dark_secondary = Color(0xFF03DAC6)
 val md_theme_dark_background = Color(0xFF121212)
 val md_theme_dark_surface = Color(0xFF1F1F1F)
 
 // Define colors for light theme
-val md_theme_light_primary = Color(0xFF6200EE)
-val md_theme_light_secondary = Color(0xFF03DAC6)
-val md_theme_light_background = Color(0xFFFFFFFF)
-val md_theme_light_surface = Color(0xFFFAFAFA)
+// Màu chính (Primary)
+val md_theme_light_primary = Color(0xFF4CAF50)  // Xanh lá cây dịu (Green)
+
+// Màu phụ (Secondary)
+val md_theme_light_secondary = Color(0xFFFF9800)  // Cam sáng (Orange)
+
+// Màu nền (Background)
+val md_theme_light_background = Color(0xFFF1F8E9)  // Xanh nhạt nền (Light green background)
+
+// Màu bề mặt (Surface)
+val md_theme_light_surface = Color(0xFFFFFFFF)  // Trắng (White)
 
 private val DarkColorScheme = darkColorScheme(
     primary = md_theme_dark_primary,
